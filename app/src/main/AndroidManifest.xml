@@ -9,14 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Bashkirov_opisanie">
-        <activity
-            android:name=".poligon"
-            android:exported="false" />
-
         <meta-data
             android:name="com.google.android.actions"
-            android:resource="@xml/view_style_item" />
+            android:resource="@xml/background" />
 
+        <activity
+            android:name=".wi_fi"
+            android:exported="false" />
         <activity
             android:name=".sobstvennye_1"
             android:exported="false" />
