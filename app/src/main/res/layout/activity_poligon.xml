@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".poligon">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90sp"
+        android:layout_marginStart="1sp"
+        android:layout_marginEnd="1sp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ssid"
+                android:textSize="12sp"
+                android:layout_marginStart="22sp" />
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/textInputEditText4"
+                android:layout_width="235dp"
+                android:layout_height="38dp"
+                android:background="@xml/okrugl_layout"
+                android:gravity="top"
+                android:textColor="#757575"
+                android:textSize="11sp"
+                android:layout_marginStart="140sp"
+                tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateClickableBoundsCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+
+            <Button
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="165dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="123dp"
+                android:layout_marginTop="810dp"
+                android:layout_marginRight="123dp"
+                android:text="@string/obnovit"
+                android:textAllCaps="false"
+                android:textColor="#86DAB9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Внутренняя сеть"
+                android:layout_marginTop="55sp"
+                android:layout_marginStart="150sp"
+
+                />
+
+
+
+            <Button
+                android:id="@+id/sohranit"
+                android:layout_width="156dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="123sp"
+                android:layout_marginTop="170sp"
+                android:layout_marginEnd="15sp"
+                android:text="@string/sohr"
+                android:textSize="13sp"
+                app:backgroundTint="#037CFF"
+                app:cornerRadius="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.15"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.561"
+                tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</ScrollView>
